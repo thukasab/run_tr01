@@ -1,0 +1,113 @@
+body{
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.header{
+    display: flex;
+    background-color: black;
+    height: 250px;
+}
+.header_title{
+    color: white;
+    flex: 1;
+}
+
+body h1{
+    padding: 120px 0 0 20px;
+    /* line-height: 250px; */
+    font-size: 30px;
+}
+.header h2{
+    padding-left: 20px;
+    font-size: 15px;
+}
+/*  ******************************************************************  */
+.main{
+    width: 85%;
+    margin: 0 auto;
+}
+.ans{
+    font-size: 20px;
+    font-weight: bold;
+}
+/*  ******************************************************************  */
+
+.contents1 h2{
+    margin-top: 70px; 
+    border-bottom: 2px solid rgba(151, 150, 150, 0.39)
+}
+.contents1 li{
+    list-style: none;
+    padding: 10px 0;
+}
+/*  ******************************************************************  */
+.container{
+    background-color: rgba(216, 209, 209, 0.253);
+    padding: 20px 0;
+}
+.img3{
+    width: 200px;
+    position: relative;
+    /* margin-left: auto; */
+}
+.img2{
+    width: 200px;
+    position: relative;
+    display: inline-block;
+}
+.unit{
+    padding-left: 15px;
+    padding-top: 20px;
+    display: inline-block;
+}
+.button{
+    margin-top: 35px;
+    width: 200%;
+}
+.btn{
+    width: 120px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: rgb(80, 80, 80);
+    color: white;
+}
+.btn:hover{
+    opacity: 0.8;
+}
+/*  ******************************************************************  */
+
+.inp_time{
+    width: 50px;
+}
+
+/*  ******************************************************************  */
+.footer{
+    background-color: rgba(73, 71, 71, 0.705);
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.img{
+    height: 200px;
+    width: 80%;
+    position: absolute;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.copyright{
+    height: 200px;
+    width: 80%;
+    background-color: rgba(73, 71, 71, 0.897);
+    position: absolute;
+    top: o;
+}
+.copyright p{
+    color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+}

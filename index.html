@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>距離速度時間計算</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header_title">
+            <h1>Let's Enjoy Running</h1>
+            <h2>―　計画的なトレーニングで　ベストタイムを目指そう　―</h2>
+        </div>
+    </div>
+    <div class="main">
+        <div class="contents1">
+            <h2>距離と速度からタイムを計算しよう！</h2>
+            <div class="container">
+                <div class="img3">
+                    <img src="img/003.jpg" alt="">
+                </div>
+                <div class="unit">
+                    <p>走る距離を入力してください（単位ｋｍ）</p>
+                    <input id="inp01_01" type="number">
+                    <label for="inp01_01">Km</label>
+                    <p>走る速度を時速で入力してください（単位km/h）</p>
+                    <input id="inp01_02" type="number">
+                    <label for="inp01_02">Km/h</label>
+                    <div class="button" id="btn01">       
+                        <button class="btn">計算する</button>
+                    </div>
+                    <div>
+                        <p class="ans" id="ans01_01"></p>
+                        <p class="ans" id="ans01_02"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="contents1">
+                <h2>ランニング速度と走行時間からどのくらいの距離走れるか計算しよう！</h2>
+                <div class="container">
+                    <ul class="unit">
+                        <li>走る速度を時速で入力してください（単位km/h）</li>
+                        <input id="inp02_02">
+                        <label for="inp02_02">Km/h</label>
+                        <li>走行時間を入力してください（ a 時間 b 分 c 秒）</li>
+                        <input class="inp_time" id="inp02_01_01">
+                        <label for="inp02_01_01">時間</label>
+                        <input class="inp_time" id="inp02_01_02">
+                        <label for="inp02_01_02">分</label>
+                        <input class="inp_time" id="inp02_01_03">
+                        <label for="inp02_01_03">秒</label>
+                        <div class="button" id="btn02">       
+                            <button class="btn">計算する</button>
+                        </div>
+                        <div>
+                            <p class="ans" id="ans02_01"></p>
+                            <p class="ans" id="ans02_02"></p>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+            <div class="contents1">
+                <h2>走行距離とタイムから走行速度を計算しよう！</h2>
+                <div class="container">
+                    <ul class="unit">
+                        <li>走る距離を入力してください（単位ｋｍ）</li>
+                        <input id="inp03_01">
+                        <label for="inp03_01">Km</label>
+                        <li>走行時間を入力してください（ a 時間 b 分 c 秒）</li>
+                        <input class="inp_time" id="inp03_01_01">
+                        <label for="inp03_01_01">時間</label>
+                        <input class="inp_time" id="inp03_01_02">
+                        <label for="inp03_01_02">分</label>
+                        <input class="inp_time" id="inp03_01_03">
+                        <label for="inp03_01_03">秒</label>
+                        <div class="button" id="btn03">       
+                            <button class="btn">計算する</button>
+                        </div>
+                    </ul>   
+                    <div class="img2">
+                        <img src="img/002.jpg" alt="">
+                    </div>
+                    <div>
+                        <p class="ans" id="ans03_01"></p>
+                        <p class="ans" id="ans03_02"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="img">
+            <img src="img/001-001.jpg" alt="">
+        </div>
+        <div class="copyright">
+            <p>Copyright  (c) Y's Run Run All Rights Reserved.</p>
+        </div>
+    </div>
+    <script src="js/main_js.js"></script>
+</body>
+</html>
